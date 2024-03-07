@@ -1,3 +1,4 @@
+import 'package:dirbbox/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -60,7 +61,9 @@ class LoginView extends GetView<LoginController> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.toNamed(Routes.PROFILE);
+                      },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -83,7 +86,9 @@ class LoginView extends GetView<LoginController> {
                               borderRadius: BorderRadius.circular(15))),
                     ),
                     ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.toNamed(Routes.PROFILE);
+                      },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [

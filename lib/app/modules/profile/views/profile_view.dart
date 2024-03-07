@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
+import '../../../routes/app_pages.dart';
 import '../controllers/profile_controller.dart';
 
 class ProfileView extends GetView<ProfileController> {
@@ -14,7 +15,9 @@ class ProfileView extends GetView<ProfileController> {
           elevation: 0,
           backgroundColor: Color(0xFFF1F1F1),
           leading: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Get.toNamed(Routes.LOGIN);
+            },
             icon: Icon(Icons.arrow_back_ios, color: Color(0xFF22215B)),
           ),
           title: const Text(
@@ -102,7 +105,8 @@ class ProfileView extends GetView<ProfileController> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
                     'My Folders',
@@ -111,14 +115,30 @@ class ProfileView extends GetView<ProfileController> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  SizedBox(width: 125),
                   Container(
-                    width: 75,
+                    width: 150,
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      //mainAxisAlignment: MainAxisAlignment.end,
                       children: [
-                        Image.asset('assets/icons/tambah.png'),
-                        Image.asset('assets/icons/settings.png'),
-                        Image.asset('assets/icons/panah-kanan-2.png'),
+                        IconButton(
+                          onPressed: () {
+                            Get.toNamed(Routes.HOME);
+                          },
+                          icon: Image.asset('assets/icons/tambah.png'),
+                        ),
+                        IconButton(
+                          onPressed: () {
+                            Get.toNamed(Routes.HOME);
+                          },
+                          icon: Image.asset('assets/icons/settings.png'),
+                        ),
+                        IconButton(
+                          onPressed: () {
+                            Get.toNamed(Routes.HOME);
+                          },
+                          icon: Image.asset('assets/icons/panah-kanan-2.png'),
+                        ),
                       ],
                     ),
                   )

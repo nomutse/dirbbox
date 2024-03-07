@@ -120,13 +120,13 @@ class HomeView extends GetView<HomeController> {
                 children: [
                   CardFolder(
                     image: Image.asset('assets/icons/folder-567DF4.png'),
-                    title: 'Mobile Apps',
+                    title: 'Design',
                     date: 'December 20.2020',
                     color: Color(0XFF415EB6),
                   ),
                   CardFolder(
                     image: Image.asset('assets/icons/folder-FFDE6C.png'),
-                    title: 'SVG Icons',
+                    title: 'Portfolio',
                     date: 'December 14.2020',
                     color: Color(0XFFFFB110),
                   ),
@@ -141,13 +141,13 @@ class HomeView extends GetView<HomeController> {
                 children: [
                   CardFolder(
                     image: Image.asset('assets/icons/folder-F45656.png'),
-                    title: 'Prototypes',
+                    title: 'References',
                     date: 'Novemaber 22.2020',
                     color: Color(0XFFF45656),
                   ),
                   CardFolder(
                     image: Image.asset('assets/icons/folder-34DEDE.png'),
-                    title: 'Avatars',
+                    title: 'Clients',
                     date: 'Novemaber 10.2020',
                     color: Color(0XFF34DEDE),
                   ),
@@ -162,13 +162,13 @@ class HomeView extends GetView<HomeController> {
                 children: [
                   CardFolder(
                     image: Image.asset('assets/icons/folder-567DF4.png'),
-                    title: 'Mobile Apps',
+                    title: 'Mobile Apps-2',
                     date: 'December 20.2020',
                     color: Color(0XFF415EB6),
                   ),
                   CardFolder(
                     image: Image.asset('assets/icons/folder-FFDE6C.png'),
-                    title: 'SVG Icons',
+                    title: 'SVG Icons-2',
                     date: 'December 14.2020',
                     color: Color(0XFFFFB110),
                   ),
@@ -183,13 +183,13 @@ class HomeView extends GetView<HomeController> {
                 children: [
                   CardFolder(
                     image: Image.asset('assets/icons/folder-F45656.png'),
-                    title: 'Prototypes',
+                    title: 'Prototypes-2',
                     date: 'Novemaber 22.2020',
                     color: Color(0XFFF45656),
                   ),
                   CardFolder(
                     image: Image.asset('assets/icons/folder-34DEDE.png'),
-                    title: 'Avatars',
+                    title: 'Avatars-2',
                     date: 'Novemaber 10.2020',
                     color: Color(0XFF34DEDE),
                   ),
